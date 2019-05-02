@@ -13,6 +13,9 @@ module.exports = {
 				use: {
 					loader: 'babel-loader',
 				},
+				exclude: [
+					'/example-consumer/'
+				]
 			},
 			{
 				test: /\.scss|css$/,
@@ -21,6 +24,9 @@ module.exports = {
 					{ loader: 'css-loader' },
 					{ loader: 'sass-loader' },
 				],
+				exclude: [
+					'/example-consumer/'
+				]
 			},
 			{
 				test: /\.(png|gif|jpg|svg)$/,
@@ -30,6 +36,9 @@ module.exports = {
 						limit: 50000,
 					},
 				},
+				exclude: [
+					'/example-consumer/'
+				]
 			},
 			{
 				test: /.js$/,
@@ -45,6 +54,9 @@ module.exports = {
 						},
 					},
 				],
+				exclude: [
+					'/example-consumer/'
+				]
 			}
 		],
 	},
@@ -78,7 +90,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist/'),
 		publicPath: '',
-		filename: 'dfp-earth.js',
+		filename: 'cesium-react-library.js',
 		libraryTarget: 'umd',
 		sourcePrefix: ''
 	},

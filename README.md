@@ -5,6 +5,22 @@ shared component library
 ## Also Read
 This repository accompanies the [article]() published on Medium. Please go through it once before you start using this repository.
 
+## Quick steps
+To quickly run this example,
+
+```
+$ git clone https://github.com/traversals-analytics-and-intelligence/example-react-cesium-library.git cesium-react-library
+$ cd cesium-react-library
+$ npm install
+$ npm run storybook
+$ npm link
+
+$ cd example-consumer
+$ npm install // If you run into issues, then please remove cesium-react-library from example-consumer/package.json
+$ npm link cesium-react-library
+$ npm start
+```
+
 ## How to use this?
 
 ### Initial steps
@@ -48,8 +64,6 @@ $ npm install --save your-component-library-name
 ```
 
 **Important**: Some extra webpack configuration is required in your react-app and can be found in the `example` folder or the article.
-
-### Consuming the library in a react-app
 
 ## Credits
 
