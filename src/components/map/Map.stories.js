@@ -1,4 +1,4 @@
-import React from 'react';// Import the storybook libraries
+import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Map from './Map';
 

@@ -1,4 +1,3 @@
-
 const path = require('path');
 const cesiumSource = 'node_modules/cesium/Source';
 const cesiumWorkers = '../Build/Cesium/Workers';
@@ -84,11 +83,9 @@ module.exports = {
 		sourcePrefix: ''
 	},
 	amd: {
-		// Enable webpack-friendly use of require in Cesium
 		toUrlUndefined: true
 	},
 	node: {
-		// Resolve node module use of fs
 		fs: 'empty'
 	}
 };

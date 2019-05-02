@@ -70,3 +70,4 @@ This library is built using and referring,
 * The built files are bigger than necessary. Please check other resources linked in the article and you may find a more suitable guide.
 
 ## LICENCE
+Apache License 2.0

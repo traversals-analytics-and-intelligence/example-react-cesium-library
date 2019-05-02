@@ -4,11 +4,8 @@
 	"description": "An example or boilerplate project to start building map components in a shared react component library",
 	"main": "dist/cesium-react-library.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack --mode production",
-		"storybook": "start-storybook -p 9001",
-		"docz:dev": "docz dev",
-		"docz:build": "docz build"
+		"storybook": "start-storybook -p 9001"
 	},
 	"keywords": [
 		"boilerplate",
@@ -20,7 +17,7 @@
 		"webpack"
 	],
 	"author": "Traversals",
-	"license": "UNLICENCED",
+	"license": "Apache License 2.0",
 	"devDependencies": {
 		"@babel/core": "^7.4.4",
 		"@babel/plugin-proposal-class-properties": "^7.4.4",
